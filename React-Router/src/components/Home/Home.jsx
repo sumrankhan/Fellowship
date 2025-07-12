@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Pink from "./Pinkrose.png";
 
 export default function Home() {
   return (
@@ -41,11 +42,7 @@ export default function Home() {
       </aside>
 
       <div className="grid  place-items-center sm:mt-20">
-        <img
-          className="sm:w-96 w-48"
-          src="https://images.pexels.com/photos/1414110/pexels-photo-1414110.jpeg"
-          alt="image2"
-        />
+        <img className="sm:w-96 w-48" src={Pink} alt="image2" />
       </div>
 
       <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">
