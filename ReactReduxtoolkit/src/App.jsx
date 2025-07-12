@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="text-center">
         <h1 className="text-3xl font-bold text-yellow-400">
-          Tailwind Project is Ready!
+          TO DO list using Redux Toolkit is Ready!
         </h1>
         <AddTodo />
         <Todos />
